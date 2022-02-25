@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .orange-color{
     color: orange;
@@ -18,7 +21,7 @@ h1{
 
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img{
@@ -46,7 +49,35 @@ h1{
     background-position: right;
 }
 
-.exp{
-    width: 50%;
-    margin-right: 10px;
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20%px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px gray;
+   
+
+}
+
+#web{
+    border-left: solid 7px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#cyber{
+    border-left: solid 7px;
+    border-image: linear-gradient(salmon, rgb(187, 47, 22));
+    border-image-slice: 1;
+}
+
+
+footer p{
+    text-align: center;
 }
